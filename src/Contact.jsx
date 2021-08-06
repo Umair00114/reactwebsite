@@ -19,7 +19,7 @@ const InputEvent = (event) =>{
 }
     const formSubmit = (e) => {
         e.preventDefault();
-        alert(`Name:{$data.fullname} Number:{$data.phone} Email:{$data.email} Message:{data.message} `)
+        alert(`Name:${data.fullname} Number:${data.phone} Email:${data.email} Message:${data.message} `)
     };
     return(
         <> 
